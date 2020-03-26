@@ -1,3 +1,84 @@
-body{
-    background-color: aquamarine;
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SectionTop {
+    margin: 0px 0px 20px 0px;
+    padding: 0px;    
+}
+
+.logo {   
+    width: 960px;
+    height: 512px;
+    padding: 0px;
+    margin: 0px;
+    background-image: url("./NasaBG.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;   
+    font-family: 'Play', sans-serif; 
+    font-size: 100px;
+}
+
+.SectionBottom {
+    height: 300px;
+    width: 960px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;    
+    justify-content: space-evenly;    
+    background-color: #E6E6E6;
+    padding: 30px 0px 0px 0px;
+    margin: 0px;
+}
+
+.data
+{
+    flex: 1;
+    padding: 0px 0px 0px 20px;
+}
+
+
+.Title {
+    font-family: "Arial Black";
+    font-weight: 800;
+    font-size: 18px;
+    padding-bottom: 20px;
+    display: table-cell;    
+}
+
+.text {
+    font-family: "Corbel Light";
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+#btn {
+    width: 80px;    
+    font-size: 22px;
+    font-weight: 900;
+    color: white;
+    font-family: Calibri;
+    background-color: #4B4B4B;
+}
+
+
+
+
+
+#Name {
+    width: 250px;
+    height: 30px;
+}
+
+
+#Msg {
+    width: 250px;
+    height: 70px;
+    margin-bottom: 10px;
 }
